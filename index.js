@@ -60,7 +60,7 @@ async function run() {
       console.log({ token });
       res.send({ token });
     });
-
+    // routes
     // services routes
     app.get("/services", async (req, res) => {
       const cursor = serviceCollection.find();
